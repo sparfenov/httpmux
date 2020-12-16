@@ -1,0 +1,15 @@
+linters-settings:
+  errcheck:
+    exclude: .errcheck
+
+linters:
+  enable-all: true
+  disable:
+    - goerr113
+    - gci
+    - gofumpt
+    - godot
+    - funlen
+    - goimports
+    - dupl
+    - gomodguard
